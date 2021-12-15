@@ -9,6 +9,11 @@ There are 2 python applications:
 1. model_api: a Flask application with a rest API for executing predictions.
 2. demo_app: a Dash application that collects few inputs and calls the api REST for predicting excursions, It display to top 5 predicted excursions.  
 
+### Requirements
+You need to install python3. Check the list of imports in the *.py* files for installing the rest of libraries.
+
+For Flask you can follow the instructions at https://pypi.org/project/Flask/
+For installing Dash:  https://dash.plotly.com/installation
 
 
 # 1. model_api
@@ -17,14 +22,14 @@ The model_api is a Flask application that implements some rest APIs. It allows t
 
 ## Project organization
 The project is organized as follows:
-
+```
 model_api
   /config
   /data
   /logs
   /models
   app.py
-
+```
 **/config**
 It contains the configuration file.
 
@@ -140,4 +145,22 @@ Returns a list of excursions ordered by its prediction’s probability.
 
 
 # 2. demo_app
+
+The main code for the webapp is in the file dashapp.py
+
+It creates a simple web UI form for collecting the minimum input for the user that will be used for building the feature’s array that the prediction model uses as a input.
+It makes a call to the model’s API and displays the top 5 excursions ordered by its prediction probability.
+
+Project organization:
+```
+/demo_app
+  /assets
+dashapp.py
+```
+
+**/assets**
+It contains a css file for nicer design.
+
+**dashapp.py**:  The main program file
+
 
