@@ -13,6 +13,7 @@ There are 2 python applications:
 You need to install python3. Check the list of imports in the *.py* files for installing the rest of libraries.
 
 For Flask you can follow the instructions at https://pypi.org/project/Flask/
+
 For installing Dash:  https://dash.plotly.com/installation
 
 
