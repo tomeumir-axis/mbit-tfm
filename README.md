@@ -1,6 +1,6 @@
 # Disclaimer
 
-This project is a prototype for demo purposes as part of the final project of the Executive Master of Data Science (2020) of the MBIT School. 
+This project is a prototype for demo purposes as part of the final project of the Executive Master of Data Science (2020) of the [MBIT School](https://www.mbitschool.com/). 
 
 
 ***It is not inteended to be run in a production environment.***
