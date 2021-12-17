@@ -67,17 +67,17 @@ app.layout = html.Div(
                 dcc.Slider(
                             id="price",
                             min = 0,
-                            max = 300,
+                            max = 150,
                             step=10,
-                            value=150,
+                            value=50,
                             marks={
                                 0: {'label': '0'},
-                                50: {'label': '50'},
-                                100: {'label': '100'},
-                                150: {'label': '150'},
-                                200: {'label': '200'},
-                                250: {'label': '250'},
-                                300: {'label': '300'}
+                                50: {'label': '25'},
+                                100: {'label': '50'},
+                                150: {'label': '75'},
+                                200: {'label': '100'},
+                                250: {'label': '125'},
+                                300: {'label': '150'}
                             }
                 ),
              
